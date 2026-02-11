@@ -1,9 +1,0 @@
-services:
-  app:
-    build:
-      context: ..
-      dockerfile: deploy/Dockerfile
-    container_name: audiototexthf
-    ports:
-      - "8501:8501"
-    restart: unless-stopped
